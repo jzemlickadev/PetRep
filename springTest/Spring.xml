@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+<!-- 	<bean id="triangle" class="org.java.meister.dto.Triangle">
+		<property name="name" value="hello world "/>
+		<property name="num" value="99"/>	
+	</bean> -->
+	
+	<bean id="square" class="org.java.meister.dto.Square"/>
+	
+		<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
+		destroy-method="close">
+		<property name="driverClassName" value="org.postgresql.Driver" />
+		<property name="url" value="jdbc:postgresql://localhost:5432/hibTest" />
+		<property name="username" value="postgres" />
+		<property name="password" value="demon" />
+	</bean>
+	
+
+</beans>
+ 

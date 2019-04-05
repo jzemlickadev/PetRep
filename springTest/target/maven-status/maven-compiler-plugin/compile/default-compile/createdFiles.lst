@@ -1,0 +1,8 @@
+com\jagermeister\model\Walker.class
+com\jagermeister\model\House.class
+com\jagermeister\dao\HouseDaoImpl.class
+com\jagemeister\javatest\StreetApp.class
+com\jagermeister\model\Street.class
+com\jagemeister\javatest\AppConfig.class
+com\jagermeister\model\Person.class
+com\jagermeister\model\Driver.class
